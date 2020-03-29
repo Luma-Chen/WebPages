@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang= "en">
+    <head>
+        <title> Seja bem-vindo </title>
+    </head>
+    <body>
+        <button id= 'red'> RED </button>
+        <button id= 'pink'> PINK </button>
+        <button id= 'purple'> PURPLE </button>
+        <script>
+            let body= document.querySelector ('body');
+            document.querySelector ('#red').onclick= function ()
+            {
+                body.style.backgroundColor= 'red';
+            }
+            document.querySelector ('#pink').onclick= function ()
+            {
+                body.style.backgroundColor= 'pink';
+            }
+            document.querySelector ('#purple').onclick= function ()
+            {
+                body.style.backgroundColor= 'purple';
+            }
+        </script>
+    </body>
+</html>
