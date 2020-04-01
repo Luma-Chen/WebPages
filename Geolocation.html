@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html lang= "en">
+    <head>
+        <title> 
+            Coordenadas 
+        </title>
+    </head>
+    <body>
+        <script>
+            navigator.geolocation.getCurrentPosition (function (position)
+            {
+                document.write ('A sua latitude da sua posição atual é: ' + position.coords.latitude 
+                + ' e longitude: ' + position.coords.longitude);
+            });
+        </script>
+    </body>
+</html>
